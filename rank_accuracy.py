@@ -4,8 +4,11 @@
 # python rank_accuracy.py --db ../datasets/caltech101/hdf5/features.hdf5 \
 #	--model ../chapter03-feature_extraction/caltech101.cpickle
 
+import sys
+sys.path.append("..")
+
 # import the necessary packages
-from pyimagesearch.utils.ranked import rank5_accuracy
+from ranked_accuracy.pyimagesearch.utils.ranked import rank5_accuracy
 import argparse
 import pickle
 import h5py

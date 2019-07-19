@@ -8,7 +8,7 @@ import sys
 sys.path.append("..")
 
 # import the necessary packages
-from ranked_accuracy.pyimagesearch.utils.ranked import rank5_accuracy
+from ranked_accuracy.ranked import rank5_accuracy
 import argparse
 import pickle
 import h5py

@@ -1,6 +1,7 @@
 # import the necessary packages
 import numpy as np
 
+
 def rank5_accuracy(preds, labels):
 	# initialize the rank-1 and rank-5 accuracies
 	rank1 = 0
@@ -28,3 +29,4 @@ def rank5_accuracy(preds, labels):
 
 	# return a tuple of the rank-1 and rank-5 accuracies
 	return (rank1, rank5)
+
